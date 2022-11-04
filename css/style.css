@@ -31,26 +31,27 @@ h2 {
 }
 
 .padBoard {
+  width: 90vw;
   background: #eeeeee6c;
-  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.589);
+  box-shadow: 10px 10px 10px rgb(0 0 0 / 59%);
   border-radius: 30px;
   display: grid;
-  gap: 10px;
+  gap: 1vw;
   grid-template-columns: repeat(12, 1fr);
-  padding: 10px;
+  padding: 2vh;
 }
 
 .pads {
   background-color: #f2f2f2;
-  border-radius: 30px;
+  border-radius: 1vw;
   box-shadow: 3px 3px 0 var(--cinza);
   color: #240a41;
   cursor: pointer;
-  height: 100px;
-  font-size: 1.5em;
+  height: 6.2vw;
+  font-size: 1.8vw;
   font-weight: bold;
   text-align: center;
-  width: 100px;
+  width: 6.2vw;
 }
 
 .pads:hover {
@@ -67,6 +68,28 @@ h2 {
 
 .pads.focus,
 .pads:focus {
+  outline: none;
+  box-shadow: 1px 1px 10px #0f0c29;
+}
+
+#btn_stop {
+  margin: 25px;
+  background-color: var(--vermelha);
+  border-radius: 30px;
+  color: var(--branca);
+  cursor: pointer;
+  height: 70px;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+  width: 180px;
+}
+
+#btn_stop:hover {
+  background-color: #f2f2f2a4;
+}
+
+#btn_stop:focus {
   outline: none;
   box-shadow: 1px 1px 10px #0f0c29;
 }
