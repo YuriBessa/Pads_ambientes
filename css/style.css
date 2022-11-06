@@ -16,17 +16,17 @@ body {
   min-height: 100vh;
 }
 
-h1 {
+.titulo {
   color: var(--branca);
   margin-bottom: 20px;
-  font-size: 3rem;
+  font-size: 5vw;
   font-weight: 600;
 }
 
-h2 {
+.subtitulo {
   color: var(--branca);
   margin-bottom: 20px;
-  font-size: 2rem;
+  font-size: 3vw;
   font-weight: 600;
 }
 
@@ -75,14 +75,14 @@ h2 {
 #btn_stop {
   margin: 25px;
   background-color: var(--vermelha);
-  border-radius: 30px;
+  border-radius: 1vw;
   color: var(--branca);
   cursor: pointer;
-  height: 70px;
-  font-size: 1.5em;
+  height: 6vw;
+  font-size: 2vw;
   font-weight: bold;
   text-align: center;
-  width: 180px;
+  width: 13vw;
 }
 
 #btn_stop:hover {
