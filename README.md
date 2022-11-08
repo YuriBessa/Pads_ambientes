@@ -15,4 +15,4 @@
  <a href="#"><img src="https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white"></a>
  </div><br>
 Desenvolvido em 24/10/2022 <br><br>
-<p> Esse repositório foi criado com base no código do site Alura MIDI, desenvolvido pela <a href="https://github.com/amandavsadev/projetosSimples-JS"> Amanda Amorim.</a></p>
+<p> Esse repositório foi criado com base no código do site Alura MIDI, desenvolvido pela <a href="https://github.com/amandavsadev/projetosSimples-JS"> Amanda Amorim.</a> alterado para ser utilizado conforme a descrição acima.</p>

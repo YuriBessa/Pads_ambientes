@@ -1,7 +1,7 @@
 :root {
   --cinza: #aaa;
   --vermelha: #e93d50;
-  --vermelha-escura: #af303f;
+  --vermelha-escura: #dc293e;
   --branca: #fff;
   --luz: rgb(229, 255, 0);
 }
@@ -86,10 +86,41 @@ body {
 }
 
 #btn_stop:hover {
-  background-color: #f2f2f2a4;
+  background-color: var(--vermelha-escura);
 }
 
 #btn_stop:focus {
   outline: none;
   box-shadow: 1px 1px 10px #0f0c29;
+}
+
+footer {
+  width: 100%;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 0px;
+  color: #0f0c29;
+  background-color: #eeeeee6c;
+  font-size: 1.3vw;
+  font-weight: 600;
+}
+
+.creditos {
+  padding-left: 8px;
+}
+
+.creditos > p > a {
+  color: #302b63;
+  font-style: italic;
+}
+
+.redes_sociais {
+  display: flex;
+  align-items: center;
+}
+.redes_sociais > p {
+  margin-right: 5px;
 }
