@@ -38,13 +38,4 @@ for (let contador = 0; contador < listaDePads.length; contador++) {
   }
 
   botaoStop.onclick = () => stopPad()
-
-  padSelecionado.onkeydown = function (evento) {
-    if (evento.code === "Space" || evento.code === "Enter") {
-      padSelecionado.classList.add("ativa")
-    }
-  }
-  padSelecionado.onkeyup = function () {
-    padSelecionado.classList.remove("ativa")
-  }
 }

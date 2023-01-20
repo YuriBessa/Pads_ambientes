@@ -7,96 +7,150 @@
     <title>Pads - Min. de Louvor</title>
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;500&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <h1 class="titulo">Pads Ambientes</h1>
-    <h2 class="subtitulo">Escolha o tom desejado:</h2>
-    <section class="padBoard">
-      <button class="pads Pad_do">Dó</button>
-      <button class="pads Pad_doSus">Dó#</button>
-      <button class="pads Pad_re">Ré</button>
-      <button class="pads Pad_reSus">Ré#</button>
-      <button class="pads Pad_mi">Mi</button>
-      <button class="pads Pad_fa">Fá</button>
-      <button class="pads Pad_faSus">Fá#</button>
-      <button class="pads Pad_sol">Sol</button>
-      <button class="pads Pad_solSus">Sol#</button>
-      <button class="pads Pad_la">Lá</button>
-      <button class="pads Pad_laSus">Lá#</button>
-      <button class="pads Pad_si">Si</button>
-      <button class="pads Pad_do_menor">Dó Menor</button>
-      <button class="pads Pad_doSus_menor">Dó# Menor</button>
-      <button class="pads Pad_re_menor">Ré Menor</button>
-      <button class="pads Pad_reSus_menor">Ré# Menor</button>
-      <button class="pads Pad_mi_menor">Mi Menor</button>
-      <button class="pads Pad_fa_menor">Fá Menor</button>
-      <button class="pads Pad_faSus_menor">Fá# Menor</button>
-      <button class="pads Pad_sol_menor">Sol Menor</button>
-      <button class="pads Pad_solSus_menor">Sol# Menor</button>
-      <button class="pads Pad_la_menor">Lá Menor</button>
-      <button class="pads Pad_laSus_menor">Lá# Menor</button>
-      <button class="pads Pad_si_menor">Si Menor</button>
+    <header>
+      <h1 class="titulo">Pads Ambientes</h1>
+    </header>
+    <main>
+      <div class="disclaimer">
+        <p>
+          O pad cria um fundo musical que auxilia na sustentação das músicas, ou
+          seja, ele cria um som contínuo usando notas específicas da tônica da
+          escala. Este fundo é caracterizado por um loop contínuo com leves
+          variações, que fica soando o tempo todo, exatamente como alguns
+          teclados fazem nas músicas.
+        </p>
+        <p>
+          Ele não serve como um playback, não sendo possível usar sem o auxílio
+          de outro instrumento que faça a base da música. Se você tiver um
+          conjunto de vozes e precisa apenas de um fundo contínuo, este recurso
+          também pode ajudar.
+        </p>
+      </div>
 
-      <audio src="pads maiores/Pads A.mp3" id="som_Pad_la"></audio>
-      <audio src="pads maiores/Pads ASus.mp3" id="som_Pad_laSus"></audio>
-      <audio src="pads maiores/Pads B.mp3" id="som_Pad_si"></audio>
-      <audio src="pads maiores/Pads C.mp3" id="som_Pad_do"></audio>
-      <audio src="pads maiores/Pads CSus.mp3" id="som_Pad_doSus"></audio>
-      <audio src="pads maiores/Pads D.mp3" id="som_Pad_re"></audio>
-      <audio src="pads maiores/Pads DSus.mp3" id="som_Pad_reSus"></audio>
-      <audio src="pads maiores/Pads E.mp3" id="som_Pad_mi"></audio>
-      <audio src="pads maiores/Pads F.mp3" id="som_Pad_fa"></audio>
-      <audio src="pads maiores/Pads FSus.mp3" id="som_Pad_faSus"></audio>
-      <audio src="pads maiores/Pads G.mp3" id="som_Pad_sol"></audio>
-      <audio src="pads maiores/Pads GSus.mp3" id="som_Pad_solSus"></audio>
-      <audio src="pads menores/Pads A menor.mp3" id="som_Pad_la_menor"></audio>
-      <audio
-        src="pads menores/Pads ASus menor.mp3"
-        id="som_Pad_laSus_menor"
-      ></audio>
-      <audio src="pads menores/Pads B menor.mp3" id="som_Pad_si_menor"></audio>
-      <audio src="pads menores/Pads C menor.mp3" id="som_Pad_do_menor"></audio>
-      <audio
-        src="pads menores/Pads CSus menor.mp3"
-        id="som_Pad_doSus_menor"
-      ></audio>
-      <audio src="pads menores/Pads D menor.mp3" id="som_Pad_re_menor"></audio>
-      <audio
-        src="pads menores/Pads DSus menor.mp3"
-        id="som_Pad_reSus_menor"
-      ></audio>
-      <audio src="pads menores/Pads E menor.mp3" id="som_Pad_mi_menor"></audio>
-      <audio src="pads menores/Pads F menor.mp3" id="som_Pad_fa_menor"></audio>
-      <audio
-        src="pads menores/Pads FSus menor.mp3"
-        id="som_Pad_faSus_menor"
-      ></audio>
-      <audio src="pads menores/Pads G menor.mp3" id="som_Pad_sol_menor"></audio>
-      <audio
-        src="pads menores/Pads GSus menor.mp3"
-        id="som_Pad_solSus_menor"
-      ></audio>
-    </section>
-    <button id="btn_stop">Parar o pad</button>
+      <h2 class="subtitulo">Escolha o tom desejado:</h2>
+      <section class="padBoard">
+        <button class="pads Pad_do">Dó</button>
+        <button class="pads Pad_doSus">Dó#</button>
+        <button class="pads Pad_re">Ré</button>
+        <button class="pads Pad_reSus">Ré#</button>
+        <button class="pads Pad_mi">Mi</button>
+        <button class="pads Pad_fa">Fá</button>
+        <button class="pads Pad_faSus">Fá#</button>
+        <button class="pads Pad_sol">Sol</button>
+        <button class="pads Pad_solSus">Sol#</button>
+        <button class="pads Pad_la">Lá</button>
+        <button class="pads Pad_laSus">Lá#</button>
+        <button class="pads Pad_si">Si</button>
+        <button class="pads Pad_do_menor">Dó Menor</button>
+        <button class="pads Pad_doSus_menor">Dó# Menor</button>
+        <button class="pads Pad_re_menor">Ré Menor</button>
+        <button class="pads Pad_reSus_menor">Ré# Menor</button>
+        <button class="pads Pad_mi_menor">Mi Menor</button>
+        <button class="pads Pad_fa_menor">Fá Menor</button>
+        <button class="pads Pad_faSus_menor">Fá# Menor</button>
+        <button class="pads Pad_sol_menor">Sol Menor</button>
+        <button class="pads Pad_solSus_menor">Sol# Menor</button>
+        <button class="pads Pad_la_menor">Lá Menor</button>
+        <button class="pads Pad_laSus_menor">Lá# Menor</button>
+        <button class="pads Pad_si_menor">Si Menor</button>
 
+        <audio src="pads maiores/Pads A.mp3" id="som_Pad_la"></audio>
+        <audio src="pads maiores/Pads ASus.mp3" id="som_Pad_laSus"></audio>
+        <audio src="pads maiores/Pads B.mp3" id="som_Pad_si"></audio>
+        <audio src="pads maiores/Pads C.mp3" id="som_Pad_do"></audio>
+        <audio src="pads maiores/Pads CSus.mp3" id="som_Pad_doSus"></audio>
+        <audio src="pads maiores/Pads D.mp3" id="som_Pad_re"></audio>
+        <audio src="pads maiores/Pads DSus.mp3" id="som_Pad_reSus"></audio>
+        <audio src="pads maiores/Pads E.mp3" id="som_Pad_mi"></audio>
+        <audio src="pads maiores/Pads F.mp3" id="som_Pad_fa"></audio>
+        <audio src="pads maiores/Pads FSus.mp3" id="som_Pad_faSus"></audio>
+        <audio src="pads maiores/Pads G.mp3" id="som_Pad_sol"></audio>
+        <audio src="pads maiores/Pads GSus.mp3" id="som_Pad_solSus"></audio>
+        <audio
+          src="pads menores/Pads A menor.mp3"
+          id="som_Pad_la_menor"
+        ></audio>
+        <audio
+          src="pads menores/Pads ASus menor.mp3"
+          id="som_Pad_laSus_menor"
+        ></audio>
+        <audio
+          src="pads menores/Pads B menor.mp3"
+          id="som_Pad_si_menor"
+        ></audio>
+        <audio
+          src="pads menores/Pads C menor.mp3"
+          id="som_Pad_do_menor"
+        ></audio>
+        <audio
+          src="pads menores/Pads CSus menor.mp3"
+          id="som_Pad_doSus_menor"
+        ></audio>
+        <audio
+          src="pads menores/Pads D menor.mp3"
+          id="som_Pad_re_menor"
+        ></audio>
+        <audio
+          src="pads menores/Pads DSus menor.mp3"
+          id="som_Pad_reSus_menor"
+        ></audio>
+        <audio
+          src="pads menores/Pads E menor.mp3"
+          id="som_Pad_mi_menor"
+        ></audio>
+        <audio
+          src="pads menores/Pads F menor.mp3"
+          id="som_Pad_fa_menor"
+        ></audio>
+        <audio
+          src="pads menores/Pads FSus menor.mp3"
+          id="som_Pad_faSus_menor"
+        ></audio>
+        <audio
+          src="pads menores/Pads G menor.mp3"
+          id="som_Pad_sol_menor"
+        ></audio>
+        <audio
+          src="pads menores/Pads GSus menor.mp3"
+          id="som_Pad_solSus_menor"
+        ></audio>
+      </section>
+      <button id="btn_stop">Parar o pad</button>
+    </main>
     <script src="js/main.js"></script>
+    <footer>
+      <div class="creditos">
+        <p>
+          Projeto desenvolvido por
+          <a href="https://www.linkedin.com/in/yuri-bessa/">Yuri Bessa</a>,
+          baseado no Projeto Alura MIDI.
+        </p>
+      </div>
+      <div class="redes_sociais">
+        <p>Conheça meu perfil no LinkedIn e/ou no GitHub!</p>
+        <a
+          href="https://www.linkedin.com/in/yuri-bessa/"
+          title="LinkedIn - Yuri Bessa"
+          ><img
+            src="img/linkedin-circulo.svg"
+            class="icones"
+            alt="Icone do LinkedIn com link"
+        /></a>
+        <a href="https://github.com/YuriBessa" title="Github  - Yuri Bessa"
+          ><img
+            src="img/github.svg"
+            class="icones"
+            alt="Ícone do GitHub com link"
+        /></a>
+      </div>
+    </footer>
   </body>
-  <footer>
-    <div class="creditos">
-      <p>
-        Projeto desenvolvido por
-        <a href="https://www.linkedin.com/in/yuri-bessa/">Yuri Bessa</a>,
-        baseado no site Alura MIDI.
-      </p>
-    </div>
-    <div class="redes_sociais">
-      <p>Conheça meu perfil no LinkedIn e/ou no GitHub!</p>
-      <a href="https://www.linkedin.com/in/yuri-bessa/" title="linkedin_ícone"
-        ><img src="img/linkedin-circulo.svg" alt="Imagem do LinkedIn"
-      /></a>
-      <a href="https://github.com/YuriBessa" title="Github_ícone"
-        ><img src="img/github.svg" alt="Imagem do GitHub"
-      /></a>
-    </div>
-  </footer>
 </html>
