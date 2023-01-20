@@ -14,5 +14,8 @@
  <a href="#"><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"></a>
  <a href="#"><img src="https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white"></a>
  </div><br>
-Desenvolvido em 24/10/2022 <br><br>
+Desenvolvido em 24/10/2022 <br>
+Refatorado em 20/01/2023 <br><br>
+
 <p> Esse repositório foi criado com base no código do site Alura MIDI, desenvolvido pela <a href="https://github.com/amandavsadev/projetosSimples-JS"> Amanda Amorim</a> alterado para ser utilizado conforme a descrição acima.</p>
+<div><img alt="Imagem do projeto"src="img/Print Site Pads.PNG"></img></div>
